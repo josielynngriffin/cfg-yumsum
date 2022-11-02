@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f4f2;
+}
+
+* {
+    color: #705041;
+    font-family: 'Libre Baskerville', serif;
+}
+a {
+    text-decoration: none;
+}
+
+.main-nav {
+    /*background-color:slategray;*/
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+   
+    padding: 10px 60px;
+    max-width:100%;
+    height:150px;
+    overflow:hidden;
+
+}
+
+.main-nav__co__logo {
+    width:62px;
+    height:62px;
+    /*align-self:center;
+    display:inline-flex;*/
+    
+}
+
+.main-nav__co__name {
+    font-size:64px;
+    display: inline-flex;
+    
+}
+
+.main-nav__name--color {
+    color: #f1a78e;
+}
+
+.main-nav__list__item {
+    list-style-type:none;
+    padding:10px 20px;
+    display: inline-flex;
+
+
+} 
+.main-nav__break {
+    width:50%;
+    border: 0.5px solid #705041;
+    border-radius:0.25px;
+
+}
