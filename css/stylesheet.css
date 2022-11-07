@@ -59,6 +59,40 @@ a {
 
 }
 
+footer {
+    background-color:#ebcec0;
+    padding: 0;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+.footer {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+.footer__co__logo {
+    width:40px;
+    height:40px;
+}
+.footer__co__name {
+    font-size:40px;
+    display:inline-flex;
+    margin:20px 0 0 ;
+}
+.footer__co--color {
+    color:#f1a78e; 
+}
+.footer__copyrights {
+    align-self:center;
+    font-size:12px;
+}
+.footer__location {
+    font-size:12px;
+    margin:6px;
+}
 .socials {
     display:flex;
     flex-flow: column wrap;
