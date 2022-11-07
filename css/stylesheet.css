@@ -14,6 +14,33 @@ a {
     text-decoration: none;
 }
 
+/*.page__wrap {
+    position:relative;
+    min-height:100vh;
+}
+.content__wrap {
+    padding-bottom:150px;
+
+TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
+} */
+
+/*.page__wrap {
+    display:flex;
+    flex-direction: column;
+    min-height:100%;
+}*/
+
+.page__wrap {
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+/*.content__wrap {
+    position:relative;
+    min-height:100vh;
+}*/
+
+
 .main-nav {
     /*background-color:slategray;*/
     display:flex;
@@ -63,8 +90,11 @@ footer {
     background-color:#ebcec0;
     padding: 0;
     width:100%;
-    position:fixed;
-    bottom:0;
+    /*position:absolute;
+    bottom:0;*/
+    margin-top:auto;
+    /*position:absolute;
+    bottom:0%;*/
 }
 .footer {
     display:flex;
