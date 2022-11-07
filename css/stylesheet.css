@@ -89,6 +89,7 @@ TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
 footer {
     background-color:#ebcec0;
     padding: 0;
+    padding-bottom:10px;
     width:100%;
     /*position:absolute;
     bottom:0;*/
@@ -122,6 +123,7 @@ footer {
 .footer__location {
     font-size:12px;
     margin:6px;
+    padding-bottom:10px;
 }
 .socials {
     display:flex;
@@ -145,4 +147,15 @@ footer {
     height: 150px;
     display:inline;
     flex-wrap:nowrap;
+}
+
+.reach-info {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items:center;
+    padding:20px 0;
+}
+
+.reach-info__title {
+    font-size: 50px;
 }
