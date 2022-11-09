@@ -89,7 +89,7 @@ TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
 }
 /*      FOOTER */
 footer {
-    background-color:#ebcec0;
+    background-color:/*#ebcec0*/ #f1d6c9;
     padding: 0;
     padding-bottom:10px;
     width:100%;
