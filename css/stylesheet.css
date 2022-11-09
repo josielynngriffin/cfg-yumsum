@@ -165,8 +165,6 @@ footer {
     display:flex;
     flex-flow:column wrap;
     align-items:center;
-    
-   
 }
 
 .subscribe__title {
@@ -174,17 +172,23 @@ footer {
 }
 .subscribe__form {
     background-color: #f1a78e;
-    width:425px;
-    height: 275px;
-    border-radius:10px;
     display:flex;
     flex-flow: column wrap;
     align-items:center;
 }
-
+.subscribe-c__form {
+    width:425px;
+    height: 275px;
+    border-radius:10px;
+}
 .subscribe__label {
     padding:30px 0 10px;
     font-weight:bolder;
+    font-size:40px;
+}
+
+.subscribe-c__label {
+    padding:30px 0 10px;
     font-size:40px;
 }
 .subscribe__info {
@@ -193,13 +197,15 @@ footer {
 }
 
 .subscribe__input {
-    width:160px;
-    height:30px;
-    border-radius:10px;
     border-color:#f8f4f2;
     background-color:#f8f4f2;
     border-style:none;
     text-align:center;
+}
+.subscribe-c__input {
+    width:160px;
+    height:30px;
+    border-radius:10px;
 }
 .subscribe__button {
     width:140px;
@@ -209,6 +215,11 @@ footer {
     border-color:#fcd0c3;
     border-style:none;
     /*color:#f8f4f2;*/
+}
+.subscribe-c__button {
+    width:140px;
+    height:40px;
+    border-radius: 10px;
 }
 .subscribe__button:hover {
     opacity:90%;
@@ -233,4 +244,27 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.subscribe-h__form {
+    width:370px;
+    height: 220px;
+    border-radius:10px;
+}
+.subscribe-h__label {
+    padding:20px 0 1px;
+    font-size:35px;
+}
+.subscribe-h__info {
+    font-size:16px;
+}
+
+.subscribe-h__input {
+    width:135px;
+    height:20px;
+    border-radius:10px;
+}
+.subscribe-h__button {
+    width:125px;
+    height:30px;
+    border-radius: 10px;
 }
