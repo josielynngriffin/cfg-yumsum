@@ -30,6 +30,8 @@ TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
     min-height:100%;
 }*/
 
+
+/*         NAVIGATON       */
 .page__wrap {
     display:flex;
     flex-direction: column;
@@ -85,7 +87,7 @@ TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
     border-radius:0.25px;
 
 }
-
+/*      FOOTER */
 footer {
     background-color:#ebcec0;
     padding: 0;
@@ -125,6 +127,8 @@ footer {
     margin:6px;
     padding-bottom:10px;
 }
+
+/*        CONTACT PAGE    */
 .socials {
     display:flex;
     flex-flow: column wrap;
@@ -149,6 +153,54 @@ footer {
     flex-wrap:nowrap;
 }
 
+.subscribe {
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    padding: 0 25%;
+   
+}
+
+.subscribe__title {
+    font-size:50px;
+}
+.subscribe__form {
+    background-color: #f1a78e;
+    width:425px;
+    height: 275px;
+    border-radius:10px;
+    display:flex;
+    flex-flow: column wrap;
+    align-items:center;
+}
+
+.subscribe__label {
+    padding:30px 0 10px;
+    font-weight:bolder;
+    font-size:40px;
+}
+.subscribe__info {
+    color:#f8f4f2;
+    font-weight:bolder;
+}
+
+.subscribe__input {
+    width:160px;
+    height:30px;
+    border-radius:10px;
+    border-color:#f8f4f2;
+    background-color:#f8f4f2;
+    border-style:none;
+    text-align:center;
+}
+.subscribe__button {
+    width:140px;
+    height:40px;
+    border-radius: 10px;
+    background-color:#fcd0c3;
+    border-color:#fcd0c3;
+    border-style:none;
+}
 .reach-info {
     display:flex;
     flex-flow: column nowrap;
