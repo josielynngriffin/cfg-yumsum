@@ -122,6 +122,12 @@ footer {
     align-self:center;
     font-size:12px;
 }
+.footer-socials__logo{
+    width:35px;
+    height:35px;
+    display:inline;
+    flex-wrap: nowrap;
+}
 .footer__location {
     font-size:12px;
     margin:6px;
