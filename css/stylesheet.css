@@ -137,6 +137,10 @@ footer {
 }
 
 /*        CONTACT PAGE    */
+.contact-form__title {
+    font-size:
+}
+
 .socials {
     display:flex;
     flex-flow: column wrap;
@@ -145,10 +149,8 @@ footer {
 
 }
 
-.socials__title {
-    text-decoration: none;
+.contact__title {
     font-size:50px;
-    display:block;
 }
 
 .socials__wrap {
@@ -165,10 +167,6 @@ footer {
     display:flex;
     flex-flow:column wrap;
     align-items:center;
-}
-
-.subscribe__title {
-    font-size:50px;
 }
 .subscribe__form {
     background-color: #f1a78e;
@@ -230,10 +228,11 @@ footer {
     align-items:center;
     padding:20px 0;
 }
-
-.reach-info__title {
-    font-size: 50px;
+.reach-info__icon {
+    width:30px;
+    height:30px;
 }
+
 .hero-wrap {
     padding-top:20px;
 }
