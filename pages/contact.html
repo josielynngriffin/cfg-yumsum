@@ -34,9 +34,24 @@
             <hr class="main-nav__break">
         </div>
         <div class="content__wrap">
-            <h1>LET'S KEEP IN TOUCH!</h1>
-            <div class="contact-form">
-                <h2>CONTACT US</h2>
+            <div class="contact">
+                <h1>LET'S KEEP IN TOUCH!</h1>
+                <form class="contact-form"> 
+                    <h2 class="contact-form__title">CONTACT US</h2>
+                    <label for="name" class="contact-form__subtitle">NAME</label>
+                    <br>
+                    <input type="text" placeholder="Your name here.." id="name" name="name">
+                    <br>
+                    <label for="email" class="contact-form__subtitle">EMAIL</label>
+                    <br>
+                    <input type="email" placeholder="Your email here.." id="email" name="email">
+                    <br>
+                    <label for="message" class="contact-form__subtitle"> YOUR MESSAGE</label>
+                    <br>
+                    <textarea id="message" name="message" class="contact-form__textarea" rows="15" cols="70"></textarea>
+                    <br>
+                    <input type="submit" value="Submit!">
+                </form>
             </div>
             <div class="socials">
                 <h2 class="socials__title">OUR SOCIAL MEDIA</h2>
@@ -53,7 +68,7 @@
                     <label for="subscribe" class="subscribe__label subscribe-c__label">KEEP SWEET!</label>
                     <p class="subscribe__info">Stay up to date via email.</p>
                     <br>
-                    <input type="email" for="subscribe" placeholder="Your email.." id="subscribe" class="subscribe__input subscribe-c__input">
+                    <input type="email" name="subscribe" placeholder="Your email.." id="subscribe" class="subscribe__input subscribe-c__input">
                     <br>
                     <input class="subscribe__button subcribe-c__button" type="submit" value="Subscribe!">
                 </form>
@@ -61,8 +76,10 @@
             <div class="reach-info">
                 <h2 class="reach-info__title">REACH US AT</h2>
                 <h3 class="reach-info__subtitle">EMAIL</h3>
+                <img src="../img/email-icon.svg" class="reach-info__icon" >
                 <p class="reach-info__text">yum-sum@gmail.com</p>
                 <h3 class="reach-info__subtitle">PHONE</h3>
+                <img src="../img/phone-logo.svg" class="reach-info__icon">
                 <p class="reach-info__text">+1 202-918-2132</p>
             </div>
             </div>
