@@ -51,7 +51,7 @@ TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
     justify-content:space-between;
     align-items:center;
    
-    padding: 10px 250px;
+    padding: 10px 20%;
     max-width:100%;
     height:150px;
     overflow:hidden;
@@ -234,28 +234,47 @@ footer {
 .reach-info__title {
     font-size: 50px;
 }
-
+.hero-wrap {
+    padding-top:20px;
+}
 .hero__image {
     background-image:url('../img/Donuts.jpg');
-    
-    opacity:75%;
     height:400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+.hero__logo {
+    width:45px;
+    height:45px;
+    padding-top:10px;
+    /*position:absolute;
+    top: 45%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    opacity:100%;*/
+}
+
 .hero__text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    opacity:100%;
+    display: inline-flex;
+}
+.hero__text--cont {
+    background-color:#f8f4f2;
+    opacity:85%;
+    padding:0px 20px;
+    
 }
 .columns {
     display: flex;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content: space-around;
 }
 .content-h__wrap a:hover:not(.recipe-preview__button){
@@ -307,9 +326,33 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.column-2 {
+
+.about-preview__logo {
+    width:75px;
+    height:75px;
+    display:block;
+}
+.about__preview__blurb {
+    text-indent: 50px;
+    text-align: center;
+    padding:10px;
+}
+.about-preview__logo--cont {
+    display:block;
+}
+.about-preview {
+    width:425px;
+    height:650px;
+    border-radius:10px;
     display:flex;
+    flex-flow:column wrap;
     justify-content:center;
+    align-items:center;
+}
+.about-preview-socials__logo {
+    width:50px;
+    height:50px;
+    
 }
 .subscribe--home {
     padding:30px 0;
