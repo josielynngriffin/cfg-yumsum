@@ -34,6 +34,7 @@
             <hr class="main-nav__break">
         </div>
         <div class="content__wrap">
+            
             <div class="contact">
                 <h1 class="contact__title">LET'S KEEP IN TOUCH!</h1>
                 <form class="contact-form"> 
@@ -44,13 +45,15 @@
                     <br>
                     <label for="email" class="contact-form__subtitle">EMAIL</label>
                     <br>
-                    <input type="email" placeholder="Your email here.." id="email" name="email" class="contact-form__input">
+                    <input type="email" placeholder="your@email.com" id="email" name="email" class="contact-form__input">
                     <br>
                     <label for="message" class="contact-form__subtitle"> YOUR MESSAGE</label>
                     <br>
-                    <textarea id="message" name="message" class="contact-form__textarea" rows="15" cols="70"></textarea>
-                    <br>
-                    <input type="submit" value="Submit!">
+                    <div class="contact-form-message">
+                        <textarea id="message" name="message" placeholder="Tell us what's on your mind!" class="contact-form__textarea" rows="15" cols="70"></textarea>
+                        <br>
+                        <input type="submit" value="Submit!" class="contact-form__button">
+                    </div>
                 </form>
             </div>
             <div class="socials">

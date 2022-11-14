@@ -84,11 +84,12 @@ TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
 
 } 
 .main-nav__break {
-    width:50%;
+    max-width:50%;
     border: 0.5px solid #705041;
     border-radius:0.25px;
 
 }
+
 /*      FOOTER */
 footer {
     background-color:/*#ebcec0*/ #f1d6c9;
@@ -137,10 +138,64 @@ footer {
 }
 
 /*        CONTACT PAGE    */
+.contact {
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+}
+.contact-form {
+    background-color:#F1A78E;
+    border-radius: 10px;
+    padding:10px;
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:10px 0;
+}
 .contact-form__title {
-    font-size:
+    font-size:40px;
+    font-weight:bolder;
+    margin-left:5px;
 }
 
+.contact-form__subtitle {
+    font-size:20px;
+    align-self:flex-start;
+    font-weight:bolder;
+    margin-left:20px;
+}
+
+.contact-form__input {
+    background-color: #f8f4f2;
+    border-color:#f8f4f2;
+    border-style:none;
+    border-radius:10px;
+    width:90%;
+    height:40px;
+    margin:5px;
+}
+.contact-form-message {
+    display:flex;
+    flex-direction:column;
+    width:90%;
+}
+.contact-form__textarea {
+    background-color:#f8f4f2;
+    border:none;
+    border-radius:10px;
+    resize:none;
+    padding-top:10px;
+}
+.contact-form__button {
+    background-color:#fcd0c3;
+    width:20%;
+    height:35px;
+    align-self:flex-end;
+    border:none;
+    border-radius:10px;
+
+}
 .socials {
     display:flex;
     flex-flow: column wrap;
@@ -153,7 +208,7 @@ footer {
     font-size:50px;
 }
 
-.socials__wrap {
+.socialsgit p__wrap {
     padding:0px;
 }
 .socials__logo {
@@ -239,6 +294,7 @@ footer {
 .hero__image {
     background-image:url('../img/Donuts.jpg');
     height:400px;
+    max-width:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,7 +339,7 @@ footer {
     display:flex;
     align-items:center;
     flex-flow: wrap column;
-    padding:30px 0 10px 50px;
+    padding:30px 0 10px 0;
 }
 .recipe-preview__image {
     width:350px;
