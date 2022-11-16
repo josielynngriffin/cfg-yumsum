@@ -1,5 +1,6 @@
 body {
     background-color: #f8f4f2;
+    overflow-x:hidden;
 }
 
 * {
@@ -487,6 +488,7 @@ footer {
 @media screen and (max-device-width:820px), screen and (max-width:8px) {
     .content__wrap {
     padding: 5%;
+
     }
     .main-nav__break {
         width:90%;
@@ -497,6 +499,24 @@ footer {
         transform: translate(-50%, -50%);
     }*/
     }
+    @media screen and (max-device-width:420px), screen and (max-width:8px) {
+        .content__wrap {
+        padding: 0%;
+        }
+        .main-nav__break {
+            width:100%;
+        }
+        .hero__text--cont {
+            width:60%;
+        }
+    }
+
+    @media screen and (max-device-width:395px), screen and (max-width:8px) {
+        .hero__text--cont {
+            width:70%;
+        }
+    }
+
 .recipe-page__title {
     position:absolute;
     top: 50%;
