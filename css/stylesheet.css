@@ -472,8 +472,40 @@ footer {
     transform: translate(-50%, -50%);
     font-weight:bolder;
 }
-.recipe-gallery__cont {
+.recipe-gallery__cont, .recipe-page__cont {
     background-color:#f8f4f2;
     padding:10px;
     opacity:85%;
+}
+
+.recipe__hero {
+    position:relative;
+    text-align:center;
+}
+
+.recipe-page__title {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bolder;
+}
+.recipe-page__image {
+    width:100%;
+}
+.prep-time {
+    text-align:center;
+    margin-bottom:20px;
+}
+.return__button {
+    width:20%;
+    background-color:#f1a78e;
+    text-align:center;
+    border-radius:10px;
+    border:none;
+    color:#f8f4f2;
+    padding:15px;
+    margin-bottom:20px;
+    margin-right:40%;
+    margin-left:40%;
 }
