@@ -84,7 +84,7 @@ TRYING TO KEEP FOOTER AT BOTTOM OF PAGE :(
 
 } 
 .main-nav__break {
-    max-width:50%;
+    width:50%;
     border: 0.5px solid #705041;
     border-radius:0.25px;
 
@@ -206,6 +206,7 @@ footer {
 
 .contact__title {
     font-size:50px;
+    text-align:center;
 }
 
 .socialsgit p__wrap {
@@ -436,4 +437,43 @@ footer {
     width:125px;
     height:30px;
     border-radius: 10px;
+}
+
+.breads__wrap , .sweetbreads__wrap , .breakfast__wrap , .desserts__wrap, .macarons__wrap {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+.content-r__wrap a:hover{
+    opacity:90%;
+}
+
+.recipe-gallery__image--size {
+    width:45%;
+    margin:1%;
+    display:flex;
+
+}
+
+.recipe-gallery__image {
+    width:100%;
+  
+}
+.recipe-gallery__image--position {
+    align-self:flex-start;
+    position:relative;
+    text-align:center;
+  
+}
+.recipe-gallery__title {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bolder;
+}
+.recipe-gallery__cont {
+    background-color:#f8f4f2;
+    padding:10px;
+    opacity:85%;
 }
