@@ -289,6 +289,7 @@ footer {
     height:30px;
 }
 
+/*                     INDEX PAGE         */
 .hero-wrap {
     padding-top:20px;
 }
@@ -439,6 +440,7 @@ footer {
     border-radius: 10px;
 }
 
+/*           RECIPE GALLERY PAGE             */
 .breads__wrap , .sweetbreads__wrap , .breakfast__wrap , .desserts__wrap, .macarons__wrap {
     display:flex;
     flex-wrap: wrap;
@@ -477,7 +479,7 @@ footer {
     padding:10px;
     opacity:85%;
 }
-
+/*         IND. RECIPE PAGE STYLING       */
 .recipe__hero {
     position:relative;
     text-align:center;
@@ -508,4 +510,27 @@ footer {
     margin-bottom:20px;
     margin-right:40%;
     margin-left:40%;
+}
+
+/*     ABOUT PAGE */
+.crop {
+    /*width:735px;
+    height:955px;*/
+    width:100%;
+    object-fit:fill;
+}
+.about__title {
+    text-align:center;
+}
+.about__blurb {
+    font-size:20px;
+    text-align:center;
+    margin-bottom:20px;
+    padding:10px;
+}
+.about__blurb__logo {
+    width:10%;
+    margin-right:45%;
+    margin-left:45%;
+    margin-bottom:50px;
 }
