@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(128,50,50,0)"/>
+<g transform="matrix(6.1107 0 0 6.1107 483.2459 499.9979)" id="961589" clip-path="url(#CLIPPATH_3)">
+<clipPath id="CLIPPATH_3">
+	<rect transform="matrix(1 0 0 1 0.0001 0)" id="clip0_302_96" x="-79" y="-79" rx="0" ry="0" width="158" height="158"/>
+</clipPath>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(241,167,142); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-78.9999, -79)" d="M 106.124 -0.0000765851 H 51.8754 C 51.8303 -0.0000765851 51.7848 -0.0000765851 51.7397 -0.0000765851 C 23.1271 0.0374314 -0.0376151 23.2628 -0.000107103 51.8754 V 106.124 C -0.000107103 106.17 -0.000107103 106.215 -0.000107103 106.26 C 0.0374009 134.873 23.2628 158.037 51.8754 158 H 106.124 C 106.17 158 106.215 158 106.26 158 C 134.873 157.962 158.037 134.737 158 106.124 V 51.8754 C 158 51.8303 158 51.7848 158 51.7397 C 157.962 23.1271 134.737 -0.0375846 106.124 -0.0000765851 Z" stroke-linecap="round"/>
+</g>
+<g transform="matrix(1 0 0 1 499.9999 362.03)" style="" id="182419">
+		
+<path xml:space="preserve" font-family="Libre Baskerville" font-size="962" font-style="normal" font-weight="bold" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" d="M185.67-8.52L-34.63 453.24Q-45.21 474.40-61.09 492.68Q-76.96 510.96-96.68 523.94Q-116.40 536.93-137.57 544.63Q-158.73 552.32-179.89 552.32L-179.89 552.32Q-211.64 552.32-230.88 536.93Q-250.12 521.54-250.12 495.56L-250.12 495.56Q-250.12 471.51-233.28 458.05Q-216.45 444.58-178.93 441.69L-178.93 441.69Q-93.31 434.96-68.30 387.82L-68.30 387.82L-42.33 337.80L-212.60-83.56Q-224.15-111.46-232.32-127.81Q-240.50-144.17-250.12-153.30Q-259.74-162.44-272.25-165.33Q-284.75-168.22-303.03-169.18L-303.03-169.18L-303.03-207.66L-11.54-207.66L-11.54-169.18Q-49.06-169.18-63.97-161.96Q-78.88-154.75-78.88-135.51L-78.88-135.51Q-78.88-127.81-76.48-117.71Q-74.07-107.61-70.23-97.03L-70.23-97.03L27.90 183.88L31.75 183.88L114.48-3.71Q126.98-33.54 135.64-53.26Q144.30-72.98 148.63-86.93Q152.96-100.88 154.88-109.53Q156.81-118.19 156.81-126.85L156.81-126.85Q156.81-151.86 142.86-160.52Q128.91-169.18 86.58-169.18L86.58-169.18L86.58-207.66L318.42-207.66L318.42-169.18Q299.18-169.18 285.71-163.89Q272.25-158.60 258.30-142.24Q244.35-125.89 227.51-93.66Q210.68-61.43 185.67-8.52L185.67-8.52Z"/></g>
+</svg>
