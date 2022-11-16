@@ -484,7 +484,19 @@ footer {
     position:relative;
     text-align:center;
 }
-
+@media screen and (max-device-width:820px), screen and (max-width:8px) {
+    .content__wrap {
+    padding: 5%;
+    }
+    .main-nav__break {
+        width:90%;
+    }
+    /*.main-nav__co__logo {
+        left:10%;
+        top:-60%;
+        transform: translate(-50%, -50%);
+    }*/
+    }
 .recipe-page__title {
     position:absolute;
     top: 50%;
